@@ -49,41 +49,36 @@ Réponse :
 ## Les Options :
 On part du principe que nous utilisons la version Linux de Nmap.
 Quelle est la première option listée dans la documentation pour faire un "Syn Scan" ?
+
+- Hint : 
 ```console
-$ nmap -h | grep -i syn
+$ nmap -h | grep -i CE_QUE_VOUS_CHERCHEZ
 ```
+
 ```console
 Réponse : 
 ```
 
 Quelle option utiliser pour un "UDP Scan" ?
-```console
-$ nmap -h | grep -i UDP
-```
+
 ```console
 Réponse : 
 ```
 
 Afin de détecter quel système d'exploitation tourne sur la machine cible, quelle option utiliser ?
-```console
-$ nmap -h | grep -i OS
-```
+
 ```console
 Réponse : 
 ```
 
 Nmap permet de connaitre les numéros de version des services tournant sur la machine cible. Quelle option le permet ?
-```sbtshell
-$ nmap -h | grep -i version
-```
+
 ```console
 Réponse : 
 ```
 
 Comment rendre les résultats des commandes namp plus explicites ?
-```console
-$ nmap -h | grep -i verbosity
-```
+
 ```console
 Réponse : 
 ```
@@ -94,9 +89,7 @@ Réponse :
 ```
 
 Quelle option utiliser pour sauvegarder les résultats de la commande nmap dans trois formats différents ?
-```console
-$ nmap -h | grep -i output
-```
+
 ```console
 Réponse : 
 ```
@@ -112,25 +105,18 @@ Réponse :
 ```
 
 Comment activer l'option "aggressive" pour obtenir davatange d'informations sur la machine cible ?
-```console
-$ nmap -h | grep -i traceroute
-```
+
 ```console
 Réponse : 
 ```
 
-Comment calibrer la vitesse des scans exécutés par nmap au maximum ? <br/> Un scan rapide peut a plus de risque de générer des erreurs ou d'être détectable.
-```console
-$ nmap -h | grep -i timing
-```
+Comment calibrer la vitesse des scans exécutés par nmap au maximum ? <br/> Un scan rapide peut a plus de risque de générer des erreurs ou d'être 
 ```console
 Réponse : 
 ```
 
 Comment spécifier le port à scanner sur la machine cible ? Le port 80 par exemple.
-```console
-$ nmap -h | grep -i port
-```
+
 ```console
 Réponse : 
 ```
@@ -146,18 +132,13 @@ Réponse :
 ```
 
 Comment activer un script parmi les scripts de la librairie nmap ?
-```console
-$ nmap -h | grep -i script
-```
+
 ```console
 Réponse : 
 ```
 
 Comment activer les script de la catégorie "vuln" ?
-```console
-$ cd /usr/share/nmap/scripts
-$ ls *vul*
-```
+
 ```console
 Réponse : 
 ```
@@ -191,7 +172,7 @@ Réponse :
 ---
 
 Lorsqu'un port UDP ne répond pas au scan de namp, il est marqué comme étant ?
-Try a Xmas scan :
+Essayez ce scan :
 ```console
 $ nmap -sX -p1-999 -vv ADRESSE_IP
 ```
@@ -226,7 +207,7 @@ Réponse :
 :construction: <br/>
 Comment réaliser un balayage de ping sur le réseau 172.16.x.x (Netmask: 255.255.0.0) en utilisant nmap ?
 ```console
-$ nmap -sn 172.16.0.0/16
+Réponse :
 ```
 
 ---
@@ -283,9 +264,7 @@ Réponse :
 ```
 
 Quelle option nmap permet de rajouter un nombre défini de données aléatoires à la fin des paquets ?
-```console
-$ nmap -h | grep -i 'random data'
-```
+
 ```console
 Réponse : 
 ```
@@ -300,9 +279,7 @@ Réponse :
 ```
 
 Réaliser un scan de type Xmas sur les premiers 999 ports de la machine cible. Combien de ports sont marqués comme open ou filtered ?
-```console
-$ sudo nmap -sX -p 1-999 ADRESSE_IP -Pn
-```
+
 ```console
 Réponse :
 ```
