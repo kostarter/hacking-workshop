@@ -20,17 +20,17 @@ https://www.youtube.com/watch?v=4t4kBkMsDbQ
 
 Quels sont les composants réseaux pour le routage du traffic réseau vers les bonnes applications ?
 ```console
-Réponse : Ports
+Réponse : 
 ```
 
 Combien chaque machine accessble par réseau en possède-t-elle ?
 ```console
-Réponse : 65535
+Réponse : 
 ```
 
 Combien parmi eux sont considérés comme connus (ou standards) ?
 ```console
-Réponse : 1024
+Réponse : 
 ```
 
 ---
@@ -42,7 +42,7 @@ Quelle est la première option listée dans la documentation pour faire un "Syn 
 $ nmap -h | grep -i syn
 ```
 ```console
-Réponse : -sS
+Réponse : 
 ```
 
 Quelle option utiliser pour un "UDP Scan" ?
@@ -50,7 +50,7 @@ Quelle option utiliser pour un "UDP Scan" ?
 $ nmap -h | grep -i UDP
 ```
 ```console
-Réponse : -sU
+Réponse : 
 ```
 
 Afin de détecter quel système d'exploitation tourne sur la machine cible, quelle option utiliser ?
@@ -58,7 +58,7 @@ Afin de détecter quel système d'exploitation tourne sur la machine cible, quel
 $ nmap -h | grep -i OS
 ```
 ```console
-Réponse : -O
+Réponse : 
 ```
 
 Nmap permet de connaitre les numéros de version des services tournant sur la machine cible. Quelle option le permet ?
@@ -66,7 +66,7 @@ Nmap permet de connaitre les numéros de version des services tournant sur la ma
 $ nmap -h | grep -i version
 ```
 ```console
-Réponse : -sV
+Réponse : 
 ```
 
 Comment rendre les résultats des commandes namp plus explicites ?
@@ -74,12 +74,12 @@ Comment rendre les résultats des commandes namp plus explicites ?
 $ nmap -h | grep -i verbosity
 ```
 ```console
-Réponse : -v
+Réponse : 
 ```
 
 Comment augmenter d'un cran le niveau de verbosité de la commande namp ?
 ```console
-Réponse : -vv
+Réponse : 
 ```
 
 Quelle option utiliser pour sauvegarder les résultats de la commande nmap dans trois formats différents ?
@@ -87,17 +87,17 @@ Quelle option utiliser pour sauvegarder les résultats de la commande nmap dans 
 $ nmap -h | grep -i output
 ```
 ```console
-Réponse : -oA
+Réponse : 
 ```
 
 Quelle option utiliser pour sauvegarder les résultats de la commande nmap dans un format normal ?
 ```console
-Réponse : -oN
+Réponse : 
 ```
 
 Quelle option utiliser pour sauvegarder les résultats de la commande nmap dans un format sur lequel on peut appliquer une commande "grep" ?
 ```console
-Réponse : -oG
+Réponse : 
 ```
 
 Comment activer l'option "aggressive" pour obtenir davatange d'informations sur la machine cible ?
@@ -105,7 +105,7 @@ Comment activer l'option "aggressive" pour obtenir davatange d'informations sur 
 $ nmap -h | grep -i traceroute
 ```
 ```console
-Réponse : -A
+Réponse : 
 ```
 
 Comment calibrer la vitesse des scans exécutés par nmap au maximum ? <br/> Un scan rapide peut a plus de risque de générer des erreurs ou d'être détectable.
@@ -113,7 +113,7 @@ Comment calibrer la vitesse des scans exécutés par nmap au maximum ? <br/> Un 
 $ nmap -h | grep -i timing
 ```
 ```console
-Réponse : -T5
+Réponse : 
 ```
 
 Comment spécifier le port à scanner sur la machine cible ? Le port 80 par exemple.
@@ -121,17 +121,17 @@ Comment spécifier le port à scanner sur la machine cible ? Le port 80 par exem
 $ nmap -h | grep -i port
 ```
 ```console
-Réponse : -p 80
+Réponse : 
 ```
 
 Comment spécifier un intervalle de ports à scanner sur la machine cible ? Le port de 1000 à 1500 par exemple.
 ```console
-Réponse : -p 1000-1500
+Réponse : 
 ```
 
 Comment dire à nmap de scanner tous les ports ?
 ```console
-Réponse : -p-
+Réponse : 
 ```
 
 Comment activer un script parmi les scripts de la librairie nmap ?
@@ -139,7 +139,7 @@ Comment activer un script parmi les scripts de la librairie nmap ?
 $ nmap -h | grep -i script
 ```
 ```console
-Réponse : --script
+Réponse : 
 ```
 
 Comment activer les script de la catégorie "vuln" ?
@@ -148,7 +148,7 @@ $ cd /usr/share/nmap/scripts
 $ ls *vul*
 ```
 ```console
-Réponse : --script=vuln
+Réponse : 
 ```
 
 ---
@@ -157,24 +157,24 @@ Réponse : --script=vuln
 
 Quelle RFC decrit le comportement standard du TCP ?
 ```console
-Réponse : RFC 793
+Réponse : 
 ```
 
 Si un port est fermé, quel flag sera retourné par le serveur pour l'indiquer ?
 ```console
-Réponse : RST
+Réponse : 
 ```
 
 ---
 
 Quels sont les deux noms pour le "Sync Scan" ?
 ```console
-Réponse : Half-open, stealth
+Réponse : 
 ```
 
 Est-il possible de faire un "Sync Scan" avec nmap sans avoir le rôle de super utilisateur ?
 ```console
-Réponse : N
+Réponse : 
 ```
 
 ---
@@ -185,29 +185,29 @@ Try a Xmas scan :
 $ nmap -sX -p1-999 -vv ADRESSE_IP
 ```
 ```console
-Réponse : open|filtered
+Réponse : 
 ```
 
 Lorsqu'un port UDP est fermé, par convention la cible renvoie un message "port unreachable" en réponse. Quel protocole fait cela ?
 ```console
-Réponse : ICMP
+Réponse : 
 ```
 
 ---
 
 Parmi les scans NULL, FIN et Xmas utilise le flag URG ?
 ```console
-Réponse : Xmas
+Réponse : 
 ```
 
 Dans quel but les scans NULL, FIN et Xmas sont ils utilisés ?
 ```console
-Réponse : firewall evasion
+Réponse : 
 ```
 
 Quel système d'exploitation peut répondre avec un RST pour chaque port à un scan NULL, FIN ou Xmas ?
 ```console
-Réponse : Microsoft Windows
+Réponse : 
 ```
 
 ---
@@ -224,20 +224,20 @@ $ nmap -sn 172.16.0.0/16
 
 En quel langage sont écrits les script NSE (Nmap Scripting Engine) de namp ?
 ```console
-Réponse : lua
+Réponse : 
 ```
 
 :construction: <br/>
 Quelle catégorie de scripts serait-il fort risqué d'exécuter en environnement de production ?
 ```console
-Réponse : intrusive
+Réponse : 
 ```
 
 ---
 
 Quel argument optionnel le script ftp-anon.nse peut-il prendre ?
 ```console
-Réponse : maxlist
+Réponse : 
 ```
 Liste d'utilisateurs anonymes à tester sur la cible.
 
@@ -251,7 +251,7 @@ $ grep smb /usr/share/nmap/scripts/script.db | grep -e '-os'
 ```
 
 ```console
-Réponse : smb-os-discovery.nse
+Réponse : 
 ```
 
 Lire le contenu du script rapidement et dire de quel autre script dépend-il ?
@@ -259,7 +259,7 @@ Lire le contenu du script rapidement et dire de quel autre script dépend-il ?
 $ grep dependencies /usr/share/nmap/scripts/smb-os-discovery.nse
 ```
 ```console
-Réponse : smb-brute
+Réponse : 
 ```
 
 ---
@@ -268,7 +268,7 @@ Réponse : smb-brute
 
 Quel protocole est souvent bloqué par les machines cibles et nécessite l'option -Pn pour s'exécuter ?
 ```console
-Réponse : icmp
+Réponse : 
 ```
 
 Quelle option nmap permet de rajouter un nombre défini de données aléatoires à la fin des paquets ?
@@ -276,7 +276,7 @@ Quelle option nmap permet de rajouter un nombre défini de données aléatoires 
 $ nmap -h | grep -i 'random data'
 ```
 ```console
-Réponse : --data-length
+Réponse : 
 ```
 
 ---
@@ -285,7 +285,7 @@ Réponse : --data-length
 
 Est-ce-que la machine cible repond aux requêtes de type ping ICMP ?
 ```console
-Réponse : N
+Réponse : 
 ```
 
 Réaliser un scan de type Xmas sur les premiers 999 ports de la machine cible. Combien de ports sont marqués comme open ou filtered ?
@@ -293,12 +293,12 @@ Réaliser un scan de type Xmas sur les premiers 999 ports de la machine cible. C
 $ sudo nmap -sX -p 1-999 ADRESSE_IP -Pn
 ```
 ```console
-Réponse : 999
+Réponse :
 ```
 
 Comment expliquer cela ? L'utilisation de l'option -vv vous sera très utile.
 ```console
-Réponse : no responses
+Réponse : 
 ```
 
 Réaliser un scan de type TCP SYN sur les 5000 premiers ports de la machine cible. Combien de ports sont marqués comme open ?
@@ -321,7 +321,7 @@ PORT     STATE SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 26.52 seconds
 ```
 ```console
-Réponse : 5
+Réponse : 
 ```
 
 🚧 <br/>
@@ -340,5 +340,5 @@ PORT   STATE SERVICE
 Nmap done: 1 IP address (1 host up) scanned in 31.29 seconds
 ```
 ```console
-Réponse : N
+Réponse : 
 ```
