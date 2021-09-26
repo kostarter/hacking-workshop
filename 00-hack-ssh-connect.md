@@ -17,7 +17,7 @@ ATTENTION SVP :
 Ci dessous vous avez une capture d'écran, elle est là juste **à titre d'exemple**
 
 Vous devez rentrer :
-- VOTRE USER : *hadoop*  
+- VOTRE USER : *kali*  
 - VOTRE CLE SSH : le chemin complet de la clé .ppk  
 - VOTRE Adresse IP : L'adresse IP attribuée par le formateur  
 
