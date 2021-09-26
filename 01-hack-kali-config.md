@@ -27,7 +27,7 @@ sudo passwd kali
 ifconfig
 ```
 
-- Pingez votre Machine THM
+- Pingez votre Machine TARGET
 
 ```
 sudo apt install openvpn
