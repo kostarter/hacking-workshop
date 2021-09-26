@@ -1,4 +1,4 @@
-##Kali Linux
+## Kali Linux
 
 ##### Pourquoi Kali Linux ?
 Cette distribution est maintenue et financée par Offensive Security Ltd, elle est l’un des systèmes d’exploitation de piratage éthique les plus populaires et les plus appréciés des pirates et des professionnels de la sécurité.
@@ -28,6 +28,14 @@ ifconfig
 ```
 
 - Pingez votre Machine TARGET
+
+# Installation et utilisation d'un VPN
+
+**Un fichier config.ovpn vous sera fourni par l'instructeur **
+
+- Téléchargez le et uploadez le sur votre machine Kali (en utilisant SCP ou directement depuis la GUI Mobaxterm
+
+- Ensuite : 
 
 ```
 sudo apt install openvpn
