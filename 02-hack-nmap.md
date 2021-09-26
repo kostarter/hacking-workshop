@@ -77,13 +77,13 @@ Nmap permet de connaitre les numéros de version des services tournant sur la ma
 Réponse : 
 ```
 
-Comment rendre les résultats des commandes namp plus explicites ?
+Comment rendre les résultats des commandes nmap plus explicites ?
 
 ```console
 Réponse : 
 ```
 
-Comment augmenter d'un cran le niveau de verbosité de la commande namp ?
+Comment augmenter d'un cran le niveau de verbosité de la commande nmap ?
 ```console
 Réponse : 
 ```
@@ -171,7 +171,7 @@ Réponse :
 
 ---
 
-Lorsqu'un port UDP ne répond pas au scan de namp, il est marqué comme étant ?
+Lorsqu'un port UDP ne répond pas au scan de nmap, il est marqué comme étant ?
 Essayez ce scan :
 ```console
 $ nmap -sX -p1-999 -vv ADRESSE_IP
@@ -214,7 +214,7 @@ Réponse :
 
 ## Les scripts NSE (Nmap Scripting Engine) :
 
-En quel langage sont écrits les script NSE (Nmap Scripting Engine) de namp ?
+En quel langage sont écrits les script NSE (Nmap Scripting Engine) de nmap ?
 ```console
 Réponse : 
 ```
@@ -291,7 +291,8 @@ Réponse :
 
 Réaliser un scan de type TCP SYN sur les 5000 premiers ports de la machine cible. Combien de ports sont marqués comme open ?
 ```console
-$ sudo nmap -sS -p 1-5000 --open -Pn ADRESSE_IP
+$ sudo nmap -xX -X n-nnn --xxxx -Xx ADRESSE_IP
+
 [sudo] password for kali: 
 Host discovery disabled (-Pn). All addresses will be marked 'up' and scan times will be slower.
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-05-18 21:00 CET
@@ -315,7 +316,8 @@ Réponse :
 🚧 <br/>
 Déployer le script ftp-anon. Le nmap peut-il se connecter avec succés au FTP sur le port 21 ?
 ```console
-$ sudo nmap --script ftp-anon -p 21 ADRESSE_IP
+$ sudo nmap --xxxxxx xxx-xxxx -x nn ADRESSE_IP
+
 Starting Nmap 7.91 ( https://nmap.org ) at 2021-05-18 21:04 CET
 Nmap scan report for 10.10.37.8
 Host is up (0.069s latency).
