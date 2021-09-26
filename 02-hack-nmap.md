@@ -258,7 +258,7 @@ Réponse :
 
 ## Firewalls :
 
-Quel protocole est souvent bloqué par les machines cibles et nécessite l'option -Pn pour s'exécuter ?
+Quel protocole est souvent bloqué par les machines cibles et nécessite l'option -Pn pour s'exécuter sans erreurs ?
 ```console
 Réponse : 
 ```
