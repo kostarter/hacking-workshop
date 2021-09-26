@@ -21,7 +21,7 @@ Vous devez rentrer :
 - VOTRE CLE SSH : le chemin complet de la clé .ppk  
 - VOTRE Adresse IP : L'adresse IP attribuée par le formateur  
 
-# La capture d'écran ci dessous est fournie à titre indicatif
+### La capture d'écran ci dessous est fournie à titre indicatif
   (Ne copiez pas bêtement les informations, lisez les instructions ci dessous :). )
 
 ![alt text](https://i.ibb.co/tYL7W8y/Annotation-2020-05-08-135954.png)  
