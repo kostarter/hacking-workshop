@@ -21,6 +21,9 @@ Vous devez rentrer :
 - VOTRE CLE SSH : le chemin complet de la clé .ppk  
 - VOTRE Adresse IP : L'adresse IP attribuée par le formateur  
 
+# La capture d'écran ci dessous est fournie à titre indicatif
+  (Ne copiez pas bêtement les informations, lisez les instructions ci dessous :). )
+
 ![alt text](https://i.ibb.co/tYL7W8y/Annotation-2020-05-08-135954.png)  
 
 
@@ -35,5 +38,7 @@ Pour ce faire suivre le mini-tuto ce-dessous :
 4. Set the file type to *.*
 5. Browse to, and Open your .pem file
 6. PuTTY will auto-detect everything it needs, and you just need to click "Save private key" and you can save your ppk key for use with PuTTY
+
+
 
 https://stackoverflow.com/questions/3190667/convert-pem-to-ppk-file-format --!>
