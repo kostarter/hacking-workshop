@@ -4,9 +4,10 @@
   <img src="https://img2.helpnetsecurity.com/posts/nmap-logo.jpg" />
 </p>
 
-En piratage informatique, plus vous avez de connaissances sur un système ou un réseau cible, plus vous disposez d'options.<br/>
+- En piratage informatique, plus vous avez de connaissances sur un système ou un réseau cible, plus vous disposez d'options.<br/>
 Nmap est installé par défaut sur les distributions Kali Linux.<br/>
-Nmap est accessible en tapant nmap dans la ligne de commande du terminal, suivi de certaines options, que nous verrons plus tard.<br/>
+
+- Nmap est accessible en tapant nmap dans la ligne de commande du terminal, suivi de certaines options, que nous verrons plus tard.<br/>
 Tout ce dont vous aurez besoin pour cela est le menu d'aide pour nmap (accessible avec nmap -h) et/ou la page de manuel nmap (accessible avec man nmap).
 
 Vous trouverez ci-dessous une vidéo explicatives :<br/>
@@ -18,6 +19,10 @@ https://www.youtube.com/watch?v=4t4kBkMsDbQ
 - Cette boite à outils de commandes vous servira tout au long de la formation. Gardez la précieusement pour référence
 - Dans un second temps, vous utiliserez certaines de ces commandes depuis votre machine d'attaque vers votre machine cible
 
+- Les réponses aux questions inclues dans ce workshop sont à renseinger sur **le formulaire suivant** : 
+  
+  https://forms.gle/C2XrfDZxqQVJr7B79
+  
 ---
 
 <p align="center">
