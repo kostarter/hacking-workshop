@@ -21,7 +21,7 @@ https://www.youtube.com/watch?v=4t4kBkMsDbQ
 
 - Les réponses aux questions inclues dans ce workshop sont à renseinger sur **le formulaire suivant** : 
   
-                             <a href="https://forms.gle/C2XrfDZxqQVJr7B79"/>
+                             ![](https://forms.gle/C2XrfDZxqQVJr7B79)
   
 ---
 
