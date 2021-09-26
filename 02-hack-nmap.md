@@ -20,8 +20,8 @@ https://www.youtube.com/watch?v=4t4kBkMsDbQ
 - Dans un second temps, vous utiliserez certaines de ces commandes depuis votre machine d'attaque vers votre machine cible
 
 - Les réponses aux questions inclues dans ce workshop sont à renseinger sur **le formulaire suivant** : 
-  
-                             ![](https://forms.gle/C2XrfDZxqQVJr7B79)
+                             
+                                      https://forms.gle/C2XrfDZxqQVJr7B79
   
 ---
 
