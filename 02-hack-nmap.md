@@ -14,6 +14,12 @@ https://www.youtube.com/watch?v=4t4kBkMsDbQ
 
 ---
 
+- Le But de ce premier TP est dans un premier temps d'explorer les options NMAP et de préparer votre boite à outils de commande 
+- Cette boite à outils de commandes vous servira tout au long de la formation. Gardez la précieusement pour référence
+- Dans un second temps, vous utiliserez certaines de ces commandes depuis votre machine d'attaque vers votre machine cible
+
+---
+
 <p align="center">
   <img src="https://www.sparkpost.com/wp-content/uploads/2018/05/what-smtp-port-to-use_800x300.png"/>
 </p>
@@ -35,7 +41,7 @@ Réponse :
 
 ---
 
-#### Les options :
+## Les Options :
 On part du principe que nous utilisons la version Linux de Nmap.
 Quelle est la première option listée dans la documentation pour faire un "Syn Scan" ?
 ```console
@@ -153,7 +159,7 @@ Réponse :
 
 ---
 
-#### Les types de Scan :
+## Les types de Scan :
 
 Quelle RFC decrit le comportement standard du TCP ?
 ```console
@@ -220,7 +226,7 @@ $ nmap -sn 172.16.0.0/16
 
 ---
 
-#### Les scripts NSE (Nmap Scripting Engine) :
+## Les scripts NSE (Nmap Scripting Engine) :
 
 En quel langage sont écrits les script NSE (Nmap Scripting Engine) de namp ?
 ```console
@@ -264,7 +270,7 @@ Réponse :
 
 ---
 
-#### Firewalls :
+## Firewalls :
 
 Quel protocole est souvent bloqué par les machines cibles et nécessite l'option -Pn pour s'exécuter ?
 ```console
@@ -281,7 +287,7 @@ Réponse :
 
 ---
 
-#### Scan de la machine cible :
+## Scan de la machine cible :
 
 Est-ce-que la machine cible repond aux requêtes de type ping ICMP ?
 ```console
